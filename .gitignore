@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+env/
+venv/
+.venv/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Data & logs (do NOT push large data)
+
+*.sqlite3
+app.log
+
+# Streamlit
+.streamlit/
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+
+# Python packaging
+dist/
+build/
+*.egg-info/
+
+# If you use git-lfs comment this out and add CSV to LFS
