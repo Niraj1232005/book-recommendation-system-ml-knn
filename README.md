@@ -1,78 +1,57 @@
 # 📚 Book Recommendation System
 
+
 <div align="center">
 
-![Python](https://img.shields.io
-
-
-![Streamlit](https://img.shields.io/badge/Streamlit-1.28shields.io/badge/scikit--learn-1
-
-
-
-
-
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 **A powerful ML-powered book recommendation system with an intuitive Streamlit interface**
 
-[Features](#-features) -  [Demo](#-demo) -  [Installation](#-installation) -  [Usage](#-usage) -  [Tech Stack](#-tech-stack)
+[Features](#-features) • [Demo](#-demo) • [Installation](#-installation) • [Usage](#-usage) • [Tech Stack](#-tech-stack)
 
 </div>
 
-***
+
+---
 
 ## 🌟 Features
 
-<table>
-<tr>
-<td width="50%">
+### 🔍 Smart Search
+- Fuzzy text matching using RapidFuzz  
+- TF-IDF vectorization for semantic search  
+- Search by book title or author name  
+- Typo-tolerant query handling  
 
-### 🔍 **Smart Search**
-- Fuzzy text matching using RapidFuzz
-- TF-IDF vectorization for semantic search
-- Search by book title or author name
-- Typo-tolerant query handling
+### 🎯 Personalized Recommendations
+- k-Nearest Neighbors (KNN) algorithm  
+- Content-based filtering  
+- Rating-aware suggestions  
+- Similar books based on features  
 
-</td>
-<td width="50%">
+### 🏆 Top Rankings
+- Most-rated books  
+- Top authors by book count  
+- Highest-rated titles  
+- Popular book analytics  
 
-### 🎯 **Personalized Recommendations**
-- k-Nearest Neighbors (KNN) algorithm
-- Content-based filtering
-- Rating-aware suggestions
-- Similar books based on features
+### 📊 Data Visualization
+- Interactive charts with Matplotlib & Seaborn  
+- Rating distribution analysis  
+- Correlation heatmaps  
+- Publication trends  
 
-</td>
-</tr>
-<tr>
-<td width="50%">
+---
 
-### 🏆 **Top Rankings**
-- Most-rated books
-- Top authors by book count
-- Highest-rated titles
-- Popular book analytics
-
-</td>
-<td width="50%">
-
-### 📊 **Data Visualization**
-- Interactive charts with Matplotlib & Seaborn
-- Rating distribution analysis
-- Correlation heatmaps
-- Publication trends
-
-</td>
-</tr>
-</table>
-
-***
 
 ## 🎬 Demo
 
 ```bash
 # Quick start - Get the app running in 3 commands
-git clone https://github.com/your-username/book-recommendation-system.git
-cd book-recommendation-system
+git clone https://github.com/Niraj1232005/book-recommendation-system-ml-knn.git
+cd book-recommendation-system-ml-knn
 pip install -r requirements.txt && streamlit run app.py
 ```
 
@@ -88,7 +67,6 @@ book-recommendation-system/
 ├── 📋 requirements.txt          # Python dependencies
 ├── 📖 README.md                 # Project documentation
 ├── 🚫 .gitignore               # Git ignore file
-└── 📝 app.log                   # Application logs (generated)
 ```
 
 ***
@@ -396,31 +374,21 @@ copies of the Software...
 
 ## 👨‍💻 Author
 
-<div align="center">
+<div align="cente">
 
-### **Your Name**
+### **Niraj Rathod**
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor//img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor.shields.io/badge/Email-D14836?style=for-the-badgeolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&
 
 </div>
 
 ***
 
-## 🌟 Star History
-
-If you find this project useful, please consider giving it a ⭐!
-
-<div align="center">
-
-[![Star History Chart](https://api.star-history.com/svg?repos=your-username/book-recommendation-system/#your-username/book-recommendation-
-
 ## 📞 Support
 
 Having issues? Contact me:
 
-- 📧 **Email**: your@email.com
-- 💬 **Discord**: YourDiscord#1234
-- 🐦 **Twitter**: [@yourusername](https://twitter.com/yourusername)
+- 📧 **Email**: niraj.rathod@vit.edu.in
+- 🐦 **Twitter**: [NirajRatho91596](https://x.com/NirajRatho91596?t=TN8w4GxZUDeSVvnsZMdUpg&s=09)
 
 ***
 
